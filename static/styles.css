@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  background-color: black;
+  content: "";
+  display: table;
+  clear: both;
+}

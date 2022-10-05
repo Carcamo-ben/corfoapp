@@ -12,16 +12,22 @@
 
     <form action="" method="post">
         <p>
-            <label for="comuna">Comuna</label>
-            <input type="text" name="comuna">
+            <label for="rut">Rut</label>
+            <input type="text" name="rut">
         </p>
         <p>
-            <label for="idProyecto">idProyecto</label>
-            <input type="text" name="idProyecto">
+            <label for="funcionalidad">Funcionalidad</label>
+            <input type="text" name="Funcionalidad">
         </p>        
         <p>
-            <label for="zonatermica">Zona Termica</label>
-            <input type="text" name="zonatermica">
+            <label for="funcionalidad2">Funcionalidad2</label>
+            <input type="text" list="func" />
+            <datalist id="func">
+              <option>actividades.economicas</option>
+              <option>contribuyente</option>
+              <option>F29</option>
+              <option>F22</option>
+            </datalist>
         </p>
         <p>
             <input type="submit">
